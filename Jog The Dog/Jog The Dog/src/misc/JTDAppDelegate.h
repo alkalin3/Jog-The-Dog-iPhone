@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@class  JTDTableViewController;
 @interface JTDAppDelegate : UIResponder <UIApplicationDelegate>
+{
+    NSMutableSet * dataSources;
+}
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UITabBarController * tabBarController;
+@property (nonatomic, retain) IBOutlet JTDTableViewController * recentRuns;
+@property (nonatomic, retain) IBOutlet JTDTableViewController * newRuns;
+
 @end

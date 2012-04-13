@@ -7,12 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "JTDBaseObject.h"
 
-@class JTDModel;
-@interface JTDBaseDataSource : NSObject <UITableViewDataSource>
+@protocol JTDDataSourceDelegate <NSObject>
+@required
+-(void)didSelectObj:(JTDBaseObject *)obj;
+@end
+
+@interface JTDBaseDataSource : NSObject <UITableViewDataSource, UITableViewDelegate>
 {
-    JTDModel * model;
+    NSArray * dataList;
 }
+-(id)initWithArray:(NSArray *)cellData;
+-(void)updateData:(NSNotification *)notification;
 
-@property (nonatomic, retain) IBOutlet JTDModel * model;
+@property (nonatomic, assign) IBOutlet UIViewController * viewController; 
+@property (nonatomic, assign) NSObject * delegate;
+@property (nonatomic, readonly) NSArray * dataList;
 @end

@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 Bellyflop. All rights reserved.
 //
 
-#import "JTDNewRunController.h"
+#import "JTDTableViewController.h"
 
 @interface JTDTableViewController ()
 
@@ -14,7 +14,7 @@
 
 @implementation JTDTableViewController
 
-@synthesize tableView;
+@synthesize tableView, dataSource;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

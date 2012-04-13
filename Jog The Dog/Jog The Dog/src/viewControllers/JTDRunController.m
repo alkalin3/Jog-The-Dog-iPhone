@@ -1,18 +1,20 @@
 //
-//  JTDRecentRunsController.m
+//  JTDRunController.m
 //  Jog The Dog
 //
-//  Created by Christopher Ingebrigtsen on 3/26/12.
+//  Created by Christopher Ingebrigtsen on 4/8/12.
 //  Copyright (c) 2012 Bellyflop. All rights reserved.
 //
 
-#import "JTDRecentRunsController.h"
+#import "JTDRunController.h"
+#import "JTDNewRunController.h"
 
-@interface JTDRecentRunsController ()
+@interface JTDRunController ()
 
 @end
 
-@implementation JTDRecentRunsController
+@implementation JTDRunController
+@synthesize startButton, run;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

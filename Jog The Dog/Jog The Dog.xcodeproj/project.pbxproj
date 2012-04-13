@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5007A01615309CED002B3EA1 /* JTDNewRunDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5007A01515309CED002B3EA1 /* JTDNewRunDataSource.m */; };
+		5007A01B1530A926002B3EA1 /* JTDNewRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 5007A01A1530A926002B3EA1 /* JTDNewRun.m */; };
+		5007A01E153279B5002B3EA1 /* JTDRunController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5007A01D153279B5002B3EA1 /* JTDRunController.m */; };
+		5007A02015327A9A002B3EA1 /* ExpandedRun.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5007A01F15327A9A002B3EA1 /* ExpandedRun.xib */; };
+		507E50D41537ABA000893FA1 /* CurrentRun.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507E50D31537ABA000893FA1 /* CurrentRun.xib */; };
+		507E50D81537AC5B00893FA1 /* JTDCurrentRunController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507E50D71537AC5B00893FA1 /* JTDCurrentRunController.m */; };
+		507F157815213D250000B7B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507F157715213D250000B7B4 /* UIKit.framework */; };
+		507F157A15213D250000B7B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507F157915213D250000B7B4 /* Foundation.framework */; };
+		507F157C15213D250000B7B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507F157B15213D250000B7B4 /* CoreGraphics.framework */; };
+		507F159C15213E8F0000B7B4 /* JTDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 507F159815213E8F0000B7B4 /* JTDAppDelegate.m */; };
+		507F159D15213E8F0000B7B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 507F159915213E8F0000B7B4 /* main.m */; };
+		507F15A615213FB00000B7B4 /* JTDBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507F15A515213FB00000B7B4 /* JTDBaseController.m */; };
+		507F15A8152140230000B7B4 /* Application.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507F15A7152140230000B7B4 /* Application.xib */; };
+		507F15AB152142AB0000B7B4 /* JTDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507F15AA152142AB0000B7B4 /* JTDTableViewController.m */; };
+		507F15B01521452E0000B7B4 /* NewRun.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507F15AF1521452E0000B7B4 /* NewRun.xib */; };
+		507F15B31521476D0000B7B4 /* JTDBaseDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 507F15B21521476D0000B7B4 /* JTDBaseDataSource.m */; };
+		5099366A152D2F2000822621 /* JTDBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 50993669152D2F2000822621 /* JTDBaseObject.m */; };
+		50DC6A8615335DB100C2FC47 /* JTDNewRunController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DC6A8515335DB100C2FC47 /* JTDNewRunController.m */; };
+		50DC6A89153362CB00C2FC47 /* PreviousRun.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50DC6A88153362CB00C2FC47 /* PreviousRun.xib */; };
+		50DC6AA515339D9200C2FC47 /* JTD-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 50DC6AA415339D9200C2FC47 /* JTD-Logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5007A01415309CED002B3EA1 /* JTDNewRunDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTDNewRunDataSource.h; sourceTree = "<group>"; };
+		5007A01515309CED002B3EA1 /* JTDNewRunDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTDNewRunDataSource.m; sourceTree = "<group>"; };
+		5007A0181530A006002B3EA1 /* JTDIncludes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTDIncludes.h; sourceTree = "<group>"; };
+		5007A0191530A926002B3EA1 /* JTDNewRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTDNewRun.h; sourceTree = "<group>"; };
+		5007A01A1530A926002B3EA1 /* JTDNewRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTDNewRun.m; sourceTree = "<group>"; };
+		5007A01C153279B5002B3EA1 /* JTDRunController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTDRunController.h; sourceTree = "<group>"; };
+		5007A01D153279B5002B3EA1 /* JTDRunController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTDRunController.m; sourceTree = "<group>"; };
+		5007A01F15327A9A002B3EA1 /* ExpandedRun.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpandedRun.xib; sourceTree = "<group>"; };
+		507E50D31537ABA000893FA1 /* CurrentRun.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurrentRun.xib; sourceTree = "<group>"; };
+		507E50D61537AC5B00893FA1 /* JTDCurrentRunController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTDCurrentRunController.h; sourceTree = "<group>"; };
+		507E50D71537AC5B00893FA1 /* JTDCurrentRunController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTDCurrentRunController.m; sourceTree = "<group>"; };
+		507F157315213D250000B7B4 /* Jog The Dog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jog The Dog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		507F157715213D250000B7B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		507F157915213D250000B7B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		507F157B15213D250000B7B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		507F159715213E8F0000B7B4 /* JTDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTDAppDelegate.h; sourceTree = "<group>"; };
+		507F159815213E8F0000B7B4 /* JTDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTDAppDelegate.m; sourceTree = "<group>"; };
+		507F159915213E8F0000B7B4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		507F15A415213FB00000B7B4 /* JTDBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTDBaseController.h; sourceTree = "<group>"; };
+		507F15A515213FB00000B7B4 /* JTDBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTDBaseController.m; sourceTree = "<group>"; };
+		507F15A7152140230000B7B4 /* Application.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Application.xib; sourceTree = "<group>"; };
+		507F15A9152142AB0000B7B4 /* JTDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTDTableViewController.h; sourceTree = "<group>"; };
+		507F15AA152142AB0000B7B4 /* JTDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTDTableViewController.m; sourceTree = "<group>"; };
+		507F15AC1521445C0000B7B4 /* Jog The Dog-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Jog The Dog-Info.plist"; sourceTree = "<group>"; };
+		507F15AD1521445C0000B7B4 /* Jog The Dog-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Jog The Dog-Prefix.pch"; sourceTree = "<group>"; };
+		507F15AF1521452E0000B7B4 /* NewRun.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewRun.xib; sourceTree = "<group>"; };
+		507F15B11521476D0000B7B4 /* JTDBaseDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTDBaseDataSource.h; sourceTree = "<group>"; };
+		507F15B21521476D0000B7B4 /* JTDBaseDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTDBaseDataSource.m; sourceTree = "<group>"; };
+		507F15B41521636B0000B7B4 /* JTDCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTDCellProtocol.h; sourceTree = "<group>"; };
+		50993668152D2F2000822621 /* JTDBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTDBaseObject.h; sourceTree = "<group>"; };
+		50993669152D2F2000822621 /* JTDBaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTDBaseObject.m; sourceTree = "<group>"; };
+		50DC6A8415335DB100C2FC47 /* JTDNewRunController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTDNewRunController.h; sourceTree = "<group>"; };
+		50DC6A8515335DB100C2FC47 /* JTDNewRunController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTDNewRunController.m; sourceTree = "<group>"; };
+		50DC6A88153362CB00C2FC47 /* PreviousRun.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreviousRun.xib; sourceTree = "<group>"; };
+		50DC6AA415339D9200C2FC47 /* JTD-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JTD-Logo.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		507F157015213D250000B7B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507F157815213D250000B7B4 /* UIKit.framework in Frameworks */,
+				507F157A15213D250000B7B4 /* Foundation.framework in Frameworks */,
+				507F157C15213D250000B7B4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		507F156815213D250000B7B4 = {
+			isa = PBXGroup;
+			children = (
+				507F157D15213D250000B7B4 /* Jog The Dog */,
+				507F157615213D250000B7B4 /* Frameworks */,
+				507F157415213D250000B7B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		507F157415213D250000B7B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				507F157315213D250000B7B4 /* Jog The Dog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		507F157615213D250000B7B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				507F157715213D250000B7B4 /* UIKit.framework */,
+				507F157915213D250000B7B4 /* Foundation.framework */,
+				507F157B15213D250000B7B4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		507F157D15213D250000B7B4 /* Jog The Dog */ = {
+			isa = PBXGroup;
+			children = (
+				507F15AC1521445C0000B7B4 /* Jog The Dog-Info.plist */,
+				507F15AD1521445C0000B7B4 /* Jog The Dog-Prefix.pch */,
+				507F159215213E8F0000B7B4 /* res */,
+				507F159515213E8F0000B7B4 /* src */,
+			);
+			path = "Jog The Dog";
+			sourceTree = "<group>";
+		};
+		507F159215213E8F0000B7B4 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				507F159315213E8F0000B7B4 /* images */,
+				507F159415213E8F0000B7B4 /* xibs */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		507F159315213E8F0000B7B4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				50DC6AA415339D9200C2FC47 /* JTD-Logo.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		507F159415213E8F0000B7B4 /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				50DC6A88153362CB00C2FC47 /* PreviousRun.xib */,
+				507F15A7152140230000B7B4 /* Application.xib */,
+				507F15AF1521452E0000B7B4 /* NewRun.xib */,
+				5007A01F15327A9A002B3EA1 /* ExpandedRun.xib */,
+				507E50D31537ABA000893FA1 /* CurrentRun.xib */,
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
+		507F159515213E8F0000B7B4 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				507F159615213E8F0000B7B4 /* misc */,
+				507F159A15213E8F0000B7B4 /* model */,
+				507F159B15213E8F0000B7B4 /* viewControllers */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		507F159615213E8F0000B7B4 /* misc */ = {
+			isa = PBXGroup;
+			children = (
+				507F159715213E8F0000B7B4 /* JTDAppDelegate.h */,
+				507F159815213E8F0000B7B4 /* JTDAppDelegate.m */,
+				507F159915213E8F0000B7B4 /* main.m */,
+				507F15B11521476D0000B7B4 /* JTDBaseDataSource.h */,
+				507F15B21521476D0000B7B4 /* JTDBaseDataSource.m */,
+				507F15B41521636B0000B7B4 /* JTDCellProtocol.h */,
+				5007A01415309CED002B3EA1 /* JTDNewRunDataSource.h */,
+				5007A01515309CED002B3EA1 /* JTDNewRunDataSource.m */,
+				5007A0181530A006002B3EA1 /* JTDIncludes.h */,
+			);
+			path = misc;
+			sourceTree = "<group>";
+		};
+		507F159A15213E8F0000B7B4 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				50993668152D2F2000822621 /* JTDBaseObject.h */,
+				50993669152D2F2000822621 /* JTDBaseObject.m */,
+				5007A0191530A926002B3EA1 /* JTDNewRun.h */,
+				5007A01A1530A926002B3EA1 /* JTDNewRun.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		507F159B15213E8F0000B7B4 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				507F15A415213FB00000B7B4 /* JTDBaseController.h */,
+				507F15A515213FB00000B7B4 /* JTDBaseController.m */,
+				507F15A9152142AB0000B7B4 /* JTDTableViewController.h */,
+				507F15AA152142AB0000B7B4 /* JTDTableViewController.m */,
+				5007A01C153279B5002B3EA1 /* JTDRunController.h */,
+				5007A01D153279B5002B3EA1 /* JTDRunController.m */,
+				50DC6A8415335DB100C2FC47 /* JTDNewRunController.h */,
+				50DC6A8515335DB100C2FC47 /* JTDNewRunController.m */,
+				507E50D61537AC5B00893FA1 /* JTDCurrentRunController.h */,
+				507E50D71537AC5B00893FA1 /* JTDCurrentRunController.m */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		507F157215213D250000B7B4 /* Jog The Dog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 507F158B15213D250000B7B4 /* Build configuration list for PBXNativeTarget "Jog The Dog" */;
+			buildPhases = (
+				507F156F15213D250000B7B4 /* Sources */,
+				507F157015213D250000B7B4 /* Frameworks */,
+				507F157115213D250000B7B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jog The Dog";
+			productName = "Jog The Dog";
+			productReference = 507F157315213D250000B7B4 /* Jog The Dog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		507F156A15213D250000B7B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JTD;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Bellyflop;
+			};
+			buildConfigurationList = 507F156D15213D250000B7B4 /* Build configuration list for PBXProject "Jog The Dog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 507F156815213D250000B7B4;
+			productRefGroup = 507F157415213D250000B7B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				507F157215213D250000B7B4 /* Jog The Dog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		507F157115213D250000B7B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507F15A8152140230000B7B4 /* Application.xib in Resources */,
+				507F15B01521452E0000B7B4 /* NewRun.xib in Resources */,
+				5007A02015327A9A002B3EA1 /* ExpandedRun.xib in Resources */,
+				50DC6A89153362CB00C2FC47 /* PreviousRun.xib in Resources */,
+				50DC6AA515339D9200C2FC47 /* JTD-Logo.png in Resources */,
+				507E50D41537ABA000893FA1 /* CurrentRun.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		507F156F15213D250000B7B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507F159C15213E8F0000B7B4 /* JTDAppDelegate.m in Sources */,
+				507F159D15213E8F0000B7B4 /* main.m in Sources */,
+				507F15A615213FB00000B7B4 /* JTDBaseController.m in Sources */,
+				507F15AB152142AB0000B7B4 /* JTDTableViewController.m in Sources */,
+				507F15B31521476D0000B7B4 /* JTDBaseDataSource.m in Sources */,
+				5099366A152D2F2000822621 /* JTDBaseObject.m in Sources */,
+				5007A01615309CED002B3EA1 /* JTDNewRunDataSource.m in Sources */,
+				5007A01B1530A926002B3EA1 /* JTDNewRun.m in Sources */,
+				5007A01E153279B5002B3EA1 /* JTDRunController.m in Sources */,
+				50DC6A8615335DB100C2FC47 /* JTDNewRunController.m in Sources */,
+				507E50D81537AC5B00893FA1 /* JTDCurrentRunController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		507F158915213D250000B7B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		507F158A15213D250000B7B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		507F158C15213D250000B7B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jog The Dog/Jog The Dog-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Jog The Dog/Jog The Dog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		507F158D15213D250000B7B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jog The Dog/Jog The Dog-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Jog The Dog/Jog The Dog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		507F156D15213D250000B7B4 /* Build configuration list for PBXProject "Jog The Dog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				507F158915213D250000B7B4 /* Debug */,
+				507F158A15213D250000B7B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		507F158B15213D250000B7B4 /* Build configuration list for PBXNativeTarget "Jog The Dog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				507F158C15213D250000B7B4 /* Debug */,
+				507F158D15213D250000B7B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 507F156A15213D250000B7B4 /* Project object */;
+}

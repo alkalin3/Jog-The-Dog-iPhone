@@ -7,31 +7,23 @@
 //
 
 #import "JTDAppDelegate.h"
-#import "JTDTableViewController.h"
-#import "JTDBaseObject.h"
-#import "JTDIncludes.h"
-#import "JTDNewRun.h"
 
 @implementation JTDAppDelegate
 
-@synthesize window = _window, tabBarController, newRuns, recentRuns;
+@synthesize window = _window;
 
 - (void)dealloc
 {
-    [self->dataSources release];
     [_window release];
     [super dealloc];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window.rootViewController = self->tabBarController;
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    
-    [self dataChanged];
-    
     return YES;
 }
 
@@ -60,27 +52,6 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-}
-
--(void)dataChanged
-{
-    NSMutableArray * array = [NSMutableArray arrayWithCapacity:3];
-    JTDNewRun * newRun = [[JTDNewRun alloc]initWithJson:[NSDictionary dictionaryWithObjectsAndKeys:@"Stewart", kJsonName, @"Beagle", kJsonBreed, @"0.2", kJsonDistance, @"2523 W. Winnemac Ave. Chicago, IL 60625", kJsonAddress, @"5.0/5.0", kJsonRating, nil]];
-    [array addObject:newRun];
-    [newRun release];
-    
-    newRun = [[JTDNewRun alloc]initWithJson:[NSDictionary dictionaryWithObjectsAndKeys:@"Porthos", kJsonName, @"Beagle", kJsonBreed, @"0.3", kJsonDistance, @"600 W. Chicago Ave. Chicago, IL 60654", kJsonAddress, @"5.0/5.0", kJsonRating, nil]];
-    [array addObject:newRun];
-    [newRun release];
-    
-    newRun = [[JTDNewRun alloc]initWithJson:[NSDictionary dictionaryWithObjectsAndKeys:@"Maximus", kJsonName, @"Pitbull", kJsonBreed, @"1.5", kJsonDistance, @"600 W. Chicago Ave. Chicago, IL 60654", kJsonAddress, @"5.0/5.0", kJsonRating, nil]];
-    [array addObject:newRun];
-    [newRun release];
-    
-    array = [[array copy]autorelease];
-    NSNotificationCenter * notificationCenter = [NSNotificationCenter defaultCenter];
-    [notificationCenter postNotificationName:kNewRunData object:array];
-    
 }
 
 @end

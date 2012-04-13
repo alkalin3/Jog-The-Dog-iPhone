@@ -8,10 +8,12 @@
 
 #import "JTDBaseController.h"
 
+@class JTDBaseDataSource;
 @interface JTDTableViewController : JTDBaseController
 {
     UITableView * tableView;
+    JTDBaseDataSource * dataSource;
 }
-
 @property (nonatomic, retain) IBOutlet UITableView * tableView;
+@property (nonatomic, retain) IBOutlet JTDBaseDataSource * dataSource;
 @end

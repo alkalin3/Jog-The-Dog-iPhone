@@ -1,5 +1,5 @@
 //
-//  JTDRunExapandedController.h
+//  JTDAppDelegate.h
 //  Jog The Dog
 //
 //  Created by Christopher Ingebrigtsen on 3/26/12.
@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "JTDBaseController.h"
 
-@interface JTDRunExapandedController : JTDBaseController
+@interface JTDAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (retain, nonatomic) UIWindow *window;
 
 @end
